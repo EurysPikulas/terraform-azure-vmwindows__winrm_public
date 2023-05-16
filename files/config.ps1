@@ -19,11 +19,11 @@ Start-Sleep -Seconds 2
 
 
 #Install QualysCloudAgent
-Start-Process -FilePath  C:\terraform\QualysCloudAgent.exe -ArgumentList "CustomerId={f5845722-29e7-5170-802b-b96290c5e87d} ActivationId={bd208cdc-07e7-443d-8a2e-44a8039d4f33} WebServiceUri=//qagpublic.qg2.apps.qualys.eu/CloudAgent/"   
+Start-Process -FilePath  C:\terraform\QualysCloudAgent.exe -ArgumentList "CustomerId={5854546df-ty874256-87Dz7888} ActivationId={5854546df-ty874256-87Dz7888} WebServiceUri=//qagpublic.qg2.apps.qualys.eu/CloudAgent/"   
 Start-Sleep -Seconds 1
 #Install WindowsSensor
 # Update these variables as needed
-$CID = '6E6E6BD048F64D1EA5BC75F714CEB9FF-D9'
+$CID = '4878446343154975462-dD55899'
 $SensorShare = 'C:\terraform\WindowsSensor.exe'
 
 # The sensor is copied to the following directory
