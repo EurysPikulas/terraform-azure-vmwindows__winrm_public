@@ -2,22 +2,22 @@
 
 variable "rg" {
   description = "Ressource group name"
-  default = "rg-tests-xops-devt-ne"
+  default = "rg-xops-dev-ne"
 }
 
 variable "rg_vnet" {
   description = "Ressource group vnet name"
-  default = "rg-infra-network-northeurope"
+  default = "rg-infra"
 }
 
 variable "vnet" {
   description = "Virtual Network name"
-  default = "vnet-dsseswayodev01"
+  default = "vnet-rxop-tgr"
 }
 
 variable "subnet" {
   description = "Subnet name"
-  default = "Subnet_App_01"
+  default = "Subnet_App0125"
 }
 
 
@@ -26,12 +26,12 @@ variable "subnet" {
 
 variable "admin" {
   description = "Virtual Machine : USERNAME"
-  default = "adminuser"
+  default = "adminuser1"
 }
 
 variable "admin_password" {
   description = "Virtual Machine : PASSWORD"
-  default = "adminuser@2023"
+  default = "Aze@l$fR)X*2325art$$@(sd"
 }
 
 
@@ -62,8 +62,6 @@ variable "tags" {
   type = map(any)
     default = {
         "CloudGuard-Internet" = "REGULAR"
-        "CloudGuard-KMSAzur" = "TRUE"
-        "CloudGuard-WindowsUpdate"= "TRUE"
         "Secured_by" = "CrowdStrike&Qualys"
     }
   description = "Tags"
@@ -75,7 +73,7 @@ variable "tags" {
 
 variable "product" {
   description ="Naming convention : Product / Product line"
-  default = "tests"
+  default = "Pr"
 }
 
 variable "customer" {
@@ -108,7 +106,7 @@ variable "numb_rs" {
 }
 variable "rg_blob" {
   description = "Ressource group Blob name"
-  default = "rg-tests-eurys-dev-ne-01"
+  default = "rg-tshs-mah-dev-ne-01"
 }
 variable "location" {
   description = "The Azure Region in which all resources should be provisioned"
